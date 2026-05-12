@@ -109,13 +109,13 @@
             <div class="bg-slate-900 p-8 md:p-12 rounded-[3rem] border border-slate-800 text-left max-w-2xl mx-auto">
                 <h4 class="text-white font-bold mb-6 text-xl">Request a Bulk Quote</h4>
                 <div class="space-y-4">
-                    <input type="text" placeholder="Full Name" class="w-full bg-slate-950 border border-slate-800 p-4 rounded-2xl text-white outline-none focus:border-blue-600 transition">
-                    <input type="email" placeholder="Email Address" class="w-full bg-slate-950 border border-slate-800 p-4 rounded-2xl text-white outline-none focus:border-blue-600 transition">
-                    <textarea placeholder="Tell us about your project (quantity, type of apparel, etc.)" class="w-full bg-slate-950 border border-slate-800 p-4 rounded-2xl text-white h-32 outline-none focus:border-blue-600 transition"></textarea>
-                    <button class="w-full bg-blue-600 text-white font-bold py-4 rounded-2xl hover:bg-blue-500 transition shadow-xl shadow-blue-600/20">Send Request</button>
-                </div>
-            </div>
-        </div>
+                    
+<form action="https://formspree.io/f/mvzllnla" method="POST" class="space-y-4">
+    <input type="text" name="name" placeholder="Full Name" required class="w-full bg-slate-950 border border-slate-800 p-4 rounded-2xl text-white outline-none focus:border-blue-600 transition">
+    <input type="email" name="email" placeholder="Email Address" required class="w-full bg-slate-950 border border-slate-800 p-4 rounded-2xl text-white outline-none focus:border-blue-600 transition">
+    <textarea name="message" placeholder="Tell us about your project..." required class="w-full bg-slate-950 border border-slate-800 p-4 rounded-2xl text-white h-32 outline-none focus:border-blue-600 transition"></textarea>
+    <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-2xl hover:bg-blue-500 transition shadow-xl shadow-blue-600/20">Send Request</button>
+</form>
     </section>
 
     <!-- Footer -->
